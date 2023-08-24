@@ -15,8 +15,8 @@ function update() {
     const num1 = Number(elementNum1.value);
     const num2 = Number(elementNum2.value);
 
-    // 引き算を行う
-    const result = num1 - num2;
+    // かけ算を行う
+    const result = num1 * num2;
 
     // 画面に表示
     elementResult.innerHTML = result; // テキストを代入
